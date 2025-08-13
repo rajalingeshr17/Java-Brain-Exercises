@@ -27,9 +27,10 @@ public class StringWeightCalculator {
 
     public static void main(String[] args) {
         // Test cases
-        System.out.println(calculateStringWeight("Hello World!!", 0));  // Output: 89
-        System.out.println(calculateStringWeight("Hello World!!", 1));  // Output: 124
-        System.out.println(calculateStringWeight("Programming", 0));    // Example
-        System.out.println(calculateStringWeight("Programming", 1));    // Example
+        System.out.println(calculateStringWeight("Hello World!!", 0));  
+        System.out.println(calculateStringWeight("Hello World!!", 1)); 
+        System.out.println(calculateStringWeight("Programming", 0)); 
+        System.out.println(calculateStringWeight("Programming", 1));
     }
+
 }
