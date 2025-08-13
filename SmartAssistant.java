@@ -51,7 +51,7 @@ class SmartAssistant extends Assistant{
 
 }
 
-class Hello{
+class SmartAssistant{
     public static void main(String[] args) {
         System.out.println("Hello I'm your Assistant Ava!");
         boolean exit=true;
@@ -111,4 +111,5 @@ class Hello{
             }
         } while (exit);
     }
+
 }
